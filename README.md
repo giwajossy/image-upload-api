@@ -2,6 +2,7 @@
 
 A RESTful API to run CRUD operations on images using multer and cloudinary.
 
+
 In a nutshell, what happens is, your image gets uploaded to the cloudinary server, and then mapped to a public_id for easy access.
 
 ---
