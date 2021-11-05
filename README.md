@@ -1,6 +1,7 @@
 ### Image Upload API
 
 A RESTful API to run CRUD operations on images using multer and cloudinary.
+
 In a nutshell, what happens is, your image gets uploaded to the cloudinary server, and then mapped to a public_id for easy access.
 
 ---
@@ -27,7 +28,7 @@ In a nutshell, what happens is, your image gets uploaded to the cloudinary serve
 npm install
 ```
 
-**Database**
+**Database Setup**
 ```
 - get a mongodb uri
 - create a .env file [Recommended: Just rename the .env.example file I created in the root directory.]
@@ -51,7 +52,7 @@ npm run server
 ```
 
 
-**Endpoints**
+**API Endpoints**
 
 ```
 GET: api/v1/user/
